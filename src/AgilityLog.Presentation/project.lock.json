@@ -18,6 +18,15 @@
           "lib/net45/AutoMapper.dll": {}
         }
       },
+      "CommonServiceLocator/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2162,6 +2171,22 @@
         },
         "runtime": {
           "lib/net45/_._": {}
+        }
+      },
+      "Unity/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
         }
       }
     },
@@ -5077,6 +5102,15 @@
           "lib/net45/AutoMapper.dll": {}
         }
       },
+      "CommonServiceLocator/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        }
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -7225,6 +7259,22 @@
         "runtime": {
           "lib/net45/_._": {}
         }
+      },
+      "Unity/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        }
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
@@ -7241,6 +7291,15 @@
         },
         "runtime": {
           "lib/net45/AutoMapper.dll": {}
+        }
+      },
+      "CommonServiceLocator/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
         }
       },
       "EntityFramework.Commands/7.0.0-rc1-final": {
@@ -9391,6 +9450,22 @@
         "runtime": {
           "lib/net45/_._": {}
         }
+      },
+      "Unity/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.3.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.dll": {},
+          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {}
+        }
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
@@ -11156,34 +11231,6 @@
         },
         "runtime": {
           "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll": {}
-        }
-      },
-      "runtime.any.System.Linq.Expressions/4.0.11-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.10",
-          "System.Diagnostics.Debug": "4.0.10",
-          "System.Globalization": "4.0.10",
-          "System.IO": "4.0.10",
-          "System.Linq": "4.0.0",
-          "System.ObjectModel": "4.0.10",
-          "System.Reflection": "4.0.10",
-          "System.Reflection.Emit": "4.0.0",
-          "System.Reflection.Emit.ILGeneration": "4.0.0",
-          "System.Reflection.Emit.Lightweight": "4.0.0",
-          "System.Reflection.Extensions": "4.0.0",
-          "System.Reflection.Primitives": "4.0.0",
-          "System.Reflection.TypeExtensions": "4.0.0",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.10",
-          "System.Threading": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet/_._": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Linq.Expressions.dll": {}
         }
       },
       "runtime.win.System.Text.Encoding.CodePages/4.0.1-beta-23516": {
@@ -14533,34 +14580,6 @@
           "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll": {}
         }
       },
-      "runtime.any.System.Linq.Expressions/4.0.11-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.10",
-          "System.Diagnostics.Debug": "4.0.10",
-          "System.Globalization": "4.0.10",
-          "System.IO": "4.0.10",
-          "System.Linq": "4.0.0",
-          "System.ObjectModel": "4.0.10",
-          "System.Reflection": "4.0.10",
-          "System.Reflection.Emit": "4.0.0",
-          "System.Reflection.Emit.ILGeneration": "4.0.0",
-          "System.Reflection.Emit.Lightweight": "4.0.0",
-          "System.Reflection.Extensions": "4.0.0",
-          "System.Reflection.Primitives": "4.0.0",
-          "System.Reflection.TypeExtensions": "4.0.0",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.10",
-          "System.Threading": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet/_._": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Linq.Expressions.dll": {}
-        }
-      },
       "runtime.win.System.Text.Encoding.CodePages/4.0.1-beta-23516": {
         "type": "package",
         "dependencies": {
@@ -16160,6 +16179,18 @@
         "lib/portable-net45+win+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10/AutoMapper.xml"
       ]
     },
+    "CommonServiceLocator/1.3.0": {
+      "type": "package",
+      "sha512": "fbjO0SNwbOFPdwVfyqv+B7gIJ2CVBOFPKqn1mDDECK7KER8jFaOdcvroFYoAHa0ktPbxi5s+15qOLnA96f8GSA==",
+      "files": [
+        "CommonServiceLocator.1.3.0.nupkg",
+        "CommonServiceLocator.1.3.0.nupkg.sha512",
+        "CommonServiceLocator.nuspec",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.pdb",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.XML"
+      ]
+    },
     "EntityFramework.Commands/7.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -16272,7 +16303,7 @@
     },
     "Microsoft.ApplicationInsights/2.0.0": {
       "type": "package",
-      "sha512": "0fHI0623ruqUzsxOGBGgWvLKTCKNzpLFT1lWUs759hsnn1vIDdbLeRoyeKwfUkQI4AusHcuuX8jZfGlM2TOnVg==",
+      "sha512": "xz5CN3ZxR4LEiFctDuZu47MKtGig+yfR6XsZc1aUz4puV6GhlLR7HDYRfDRQH+q2XXYGvh+BThdHbaF5RiXE/w==",
       "files": [
         "lib/dotnet5.4/Microsoft.ApplicationInsights.dll",
         "lib/dotnet5.4/Microsoft.ApplicationInsights.XML",
@@ -17816,28 +17847,6 @@
         "Remotion.Linq.2.0.1.nupkg",
         "Remotion.Linq.2.0.1.nupkg.sha512",
         "Remotion.Linq.nuspec"
-      ]
-    },
-    "runtime.any.System.Linq.Expressions/4.0.11-beta-23516": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "4sPxQCjllMJ1uZNlwz/EataPyHSH+AqSDlOIPPqcy/88R2B+abfhPPC78rd7gvHp8KmMX4qbJF6lcCeDIQpmVg==",
-      "files": [
-        "lib/DNXCore50/System.Linq.Expressions.dll",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/netcore50/System.Linq.Expressions.dll",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "ref/dotnet/_._",
-        "runtime.any.System.Linq.Expressions.4.0.11-beta-23516.nupkg",
-        "runtime.any.System.Linq.Expressions.4.0.11-beta-23516.nupkg.sha512",
-        "runtime.any.System.Linq.Expressions.nuspec",
-        "runtimes/aot/lib/netcore50/_._"
       ]
     },
     "runtime.win.System.Text.Encoding.CodePages/4.0.1-beta-23516": {
@@ -22132,6 +22141,33 @@
         "System.Xml.XDocument.4.0.11-beta-23516.nupkg.sha512",
         "System.Xml.XDocument.nuspec"
       ]
+    },
+    "Unity/4.0.1": {
+      "type": "package",
+      "sha512": "RHFTCW13E186hCI0Z4R47tl2SyxQOp3TNaBlilxKktO+u+NUWyOK/nPJ25PWwgPh4j4/GM46PQszSsusui+ikw==",
+      "files": [
+        "lib/net45/Microsoft.Practices.Unity.Configuration.dll",
+        "lib/net45/Microsoft.Practices.Unity.Configuration.XML",
+        "lib/net45/Microsoft.Practices.Unity.dll",
+        "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/net45/Microsoft.Practices.Unity.xml",
+        "lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.dll",
+        "lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.xml",
+        "lib/win8/Microsoft.Practices.Unity.dll",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.pri",
+        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/win8/Microsoft.Practices.Unity.xml",
+        "lib/wp80/Microsoft.Practices.Unity.dll",
+        "lib/wp80/Microsoft.Practices.Unity.RegistrationByConvention.dll",
+        "lib/wp80/Microsoft.Practices.Unity.RegistrationByConvention.XML",
+        "lib/wp80/Microsoft.Practices.Unity.xml",
+        "Unity.4.0.1.nupkg",
+        "Unity.4.0.1.nupkg.sha512",
+        "Unity.nuspec",
+        "UnityConfiguration30.xsd"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -22158,7 +22194,9 @@
       "Microsoft.Extensions.Logging.Debug >= 1.0.0-rc1-final",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-rc1-final"
     ],
-    "DNX,Version=v4.5.1": [],
+    "DNX,Version=v4.5.1": [
+      "Unity >= 4.0.1"
+    ],
     "DNXCore,Version=v5.0": []
   }
 }

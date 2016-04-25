@@ -3,6 +3,13 @@
   "version": 2,
   "targets": {
     ".NETFramework,Version=v4.5.1": {
+      "AgilityLog.DataAccess.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "frameworkAssemblies": [
+          "System.Runtime"
+        ]
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -376,6 +383,17 @@
       }
     },
     "DNXCore,Version=v5.0": {
+      "AgilityLog.DataAccess.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1510,6 +1528,13 @@
       }
     },
     ".NETFramework,Version=v4.5.1/win7-x86": {
+      "AgilityLog.DataAccess.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "frameworkAssemblies": [
+          "System.Runtime"
+        ]
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1883,6 +1908,13 @@
       }
     },
     ".NETFramework,Version=v4.5.1/win7-x64": {
+      "AgilityLog.DataAccess.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "frameworkAssemblies": [
+          "System.Runtime"
+        ]
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2256,6 +2288,17 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
+      "AgilityLog.DataAccess.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -3927,6 +3970,17 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x64": {
+      "AgilityLog.DataAccess.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETPlatform,Version=v5.4",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1-beta-23516",
+          "System.Collections": "4.0.11-beta-23516",
+          "System.Linq": "4.0.1-beta-23516",
+          "System.Runtime": "4.0.21-beta-23516",
+          "System.Threading": "4.0.11-beta-23516"
+        }
+      },
       "EntityFramework.Commands/7.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -5599,6 +5653,10 @@
     }
   },
   "libraries": {
+    "AgilityLog.DataAccess.Entities/1.0.0": {
+      "type": "project",
+      "path": "../AgilityLog.DataAccess.Entities/project.json"
+    },
     "EntityFramework.Commands/7.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -9023,6 +9081,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "AgilityLog.DataAccess.Entities >= 1.0.0-*",
       "EntityFramework.Commands >= 7.0.0-rc1-final",
       "EntityFramework.MicrosoftSqlServer >= 7.0.0-rc1-final"
     ],

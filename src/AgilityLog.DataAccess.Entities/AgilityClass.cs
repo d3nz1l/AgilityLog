@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AgilityLog.DataAccess.Entities
 {
-    public class AgilityClass : EntityBase
+    public class AgilityClass : EntityBase<int>
     {
         public string Name { get; set; }
 
@@ -24,5 +24,7 @@ namespace AgilityLog.DataAccess.Entities
         public int GradeScheme { get; set; }
 
         public int ShowId { get; set; }
+
+        public AgilityShow RelatedShow { get; set; }
     }
 }

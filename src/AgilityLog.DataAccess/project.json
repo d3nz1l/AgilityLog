@@ -7,10 +7,10 @@
   "licenseUrl": "",
   "frameworks": {
     "net451": {
-        "dependencies": {
-          
-        }
-      },
+      "dependencies": {
+        "Unity": "4.0.1"
+      }
+    },
       "dnxcore5.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.0.1-beta-23516",
@@ -23,6 +23,7 @@
     },
   "dependencies": {
     "AgilityLog.DataAccess.Entities": "1.0.0-*",
+    "AgilityLog.DataAccess.EntityRepository": "1.0.0-*",
     "AgilityLog.ServiceLayer.Models": "1.0.0-*",
     "AutoMapper": "4.2.1"
   }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AgilityLog.DataAccess.Entities
 {
-    public class AgilityShow : EntityBase
+    public class AgilityShow : EntityBase<int>
     {
         public string Name { get; set; }
 
