@@ -146,7 +146,7 @@ namespace AgilityLog.DataAccess.EntityRepository.Repositories
         /// Adds the the set of default include expressions used to specify which properties are populated.
         /// </summary>
         /// <param name="includes">The includes.</param>
-        private void AddIncludes(params Expression<Func<TEntity, object>>[] includes)
+        protected void AddIncludes(params Expression<Func<TEntity, object>>[] includes)
         {
             foreach (var include in includes)
             {
