@@ -28,6 +28,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AgilityLog.ServiceLayer.Mod
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AgilityLog.DataAccess.Entities", "src\AgilityLog.DataAccess.Entities\AgilityLog.DataAccess.Entities.xproj", "{7637F08C-1060-4A86-AFF9-695AE0331D6E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FCA4438C-552B-4A93-A22E-F183767BA51A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AgilityLog.DataAccess.UnitTests", "tests\AgilityLog.DataAccess.UnitTests\AgilityLog.DataAccess.UnitTests.xproj", "{8E603625-DF6C-4267-8C50-20C6A6168AAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +62,10 @@ Global
 		{7637F08C-1060-4A86-AFF9-695AE0331D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7637F08C-1060-4A86-AFF9-695AE0331D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7637F08C-1060-4A86-AFF9-695AE0331D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E603625-DF6C-4267-8C50-20C6A6168AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E603625-DF6C-4267-8C50-20C6A6168AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E603625-DF6C-4267-8C50-20C6A6168AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E603625-DF6C-4267-8C50-20C6A6168AAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +80,7 @@ Global
 		{EDED4F8B-D8B1-4052-9A6A-09D0256C85E7} = {E619DADD-58F7-491B-828B-C54221FD7151}
 		{76D25DA8-A0E9-4C9C-85C4-4E9C013A63DD} = {9372D602-7846-4ED1-A4E6-720163680AD2}
 		{7637F08C-1060-4A86-AFF9-695AE0331D6E} = {E619DADD-58F7-491B-828B-C54221FD7151}
+		{FCA4438C-552B-4A93-A22E-F183767BA51A} = {7295F73A-9923-42AF-865E-98546BEBC1E9}
+		{8E603625-DF6C-4267-8C50-20C6A6168AAD} = {FCA4438C-552B-4A93-A22E-F183767BA51A}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,34 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "AgilityLog.DataAccess.UnitTests Class Library",
+  "authors": [ "Mark" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+      }
+    },
+    "dnxcore5.0": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  },
+  "dependencies": {
+    "AgilityLog.DataAccess": "",
+    "AgilityLog.DataAccess.Entities": "",
+    "AgilityLog.DataAccess.EntityRepository": "",
+    "MSTest.UnitTestFramework": "1.0.0-alpha7",
+    "MSTest.Runner.Dnx": "1.0.0-rc1"
+  },
+  "commands": {
+    "test": "mstest.runner.dnx"
+  }
+}
